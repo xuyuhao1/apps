@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/rtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="＜"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="填写个人信息"
+        android:textColor="#ff323232"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="140dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="-110dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_img"
+            >
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/pzBtn"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="-26dp"
+            android:layout_marginTop="82dp"
+            android:background="@mipmap/pz"
+            >
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginLeft="-190dp"
+        >
+        <EditText
+            android:layout_width="277dp"
+            android:layout_height="48dp"
+            android:textColor="#ffcccccc"
+            android:textSize="16sp"
+            android:hint="\n\u3000萌新-1546"
+            android:lineSpacingExtra="-15dp"
+            android:background="@drawable/btn_input"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="-280dp">
+        <CheckBox
+            android:id="@+id/radio1"
+            style="@style/select_style"
+            android:tag="rd1"
+            android:background="@drawable/btn_rd"
+            android:text="男生"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_width="138dp"
+            android:layout_height="49dp"
+            />
+
+        <CheckBox
+            android:id="@+id/radio2"
+            style="@style/select_style"
+            android:tag="rd2"
+            android:background="@drawable/btn_rd1"
+            android:text="女生"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_width="138dp"
+            android:layout_height="49dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="-250dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:text="性别后续不可修改，请按真实的选择"
+            android:textColor="#ffcccccc"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="-230dp"
+        >
+        <Button
+            android:id="@+id/wc"
+            android:layout_width="277dp"
+            android:layout_height="48dp"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            android:text="完成"
+            android:background="@drawable/btn_input"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

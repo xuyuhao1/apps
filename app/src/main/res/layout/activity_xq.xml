@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="温馨提示"
+        android:layout_marginTop="10dp"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:gravity="center"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="阅读并同意《用户协议》《隐私政策》方可登录"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/Yes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_normal"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="同意"/>
+    <Button
+        android:id="@+id/No"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:background="@drawable/btn_input1"
+        android:layout_gravity="center"
+        android:text="取消"/>
+</LinearLayout>
