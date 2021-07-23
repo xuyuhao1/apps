@@ -52,10 +52,8 @@ public class Login1Activity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 if(isChecked){
                     cb1.setBackgroundResource(R.drawable.btn_rd);
-                    cb2.setEnabled(false);
-                }else{
-                    cb1.setBackgroundResource(R.drawable.btn_rd5);
-                    cb2.setEnabled(true);
+                    cb2.setChecked(false);
+                    cb2.setBackgroundResource(R.drawable.btn_rd6);
                 }
             }
         });
@@ -66,24 +64,12 @@ public class Login1Activity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 if(isChecked){
                     cb2.setBackgroundResource(R.drawable.btn_rd1);
-                    cb1.setEnabled(false);
-                }else{
-                    cb2.setBackgroundResource(R.drawable.btn_rd6);
-                    cb1.setEnabled(false);
+                    cb1.setChecked(false);
+                    cb1.setBackgroundResource(R.drawable.btn_rd5);
                 }
             }
         });
 
-//        if(cb1.isChecked()){
-//            cb1.setBackgroundResource(R.drawable.btn_rd1);
-//        }else{
-//
-//        }
-//        if(cb2.isChecked()){
-//            cb2.setBackgroundResource(R.drawable.btn_rd);
-//        }else{
-//
-//        }
         Button wcBtn=findViewById(R.id.wc);
         wcBtn.setOnClickListener(new View.OnClickListener() {
             @Override

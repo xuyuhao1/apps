@@ -162,7 +162,7 @@
                 android:layout_marginLeft="-220dp"
                 >
                 <CheckBox
-                    android:id="@+id/type1"
+                    android:id="@+id/msType1"
                     style="@style/select_style"
                     android:tag="rd1"
                     android:background="@drawable/btn_rd2"
@@ -174,7 +174,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/type2"
+                    android:id="@+id/msType2"
                     style="@style/select_style"
                     android:tag="rd2"
                     android:background="@drawable/btn_rd2"
@@ -186,7 +186,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/type3"
+                    android:id="@+id/msType3"
                     style="@style/select_style"
                     android:tag="rd2"
                     android:background="@drawable/btn_rd2"
@@ -198,7 +198,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/type4"
+                    android:id="@+id/msType4"
                     style="@style/select_style"
                     android:tag="rd2"
                     android:background="@drawable/btn_rd2"
@@ -212,7 +212,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/type5"
+                    android:id="@+id/msType5"
                     style="@style/select_style"
                     android:tag="rd2"
                     android:background="@drawable/btn_rd2"
@@ -226,7 +226,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/type6"
+                    android:id="@+id/msType6"
                     style="@style/select_style"
                     android:tag="rd2"
                     android:background="@drawable/btn_rd2"
