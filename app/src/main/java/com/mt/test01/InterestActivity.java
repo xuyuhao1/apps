@@ -1,6 +1,9 @@
 package com.mt.test01;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
@@ -50,6 +53,8 @@ public class InterestActivity extends AppCompatActivity {
     private CheckBox jbBq4;
     private CheckBox jbBq5;
     private CheckBox jbBq6;
+
+    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -737,6 +742,14 @@ public class InterestActivity extends AppCompatActivity {
                 }else{
                     jbType6.setBackgroundResource(R.drawable.btn_rd2);
                 }
+            }
+        });
+        btn=findViewById(R.id.wc);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(InterestActivity.this,Home1Activity.class);
+                startActivity(intent);
             }
         });
 
