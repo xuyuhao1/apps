@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
             <TextView
                 android:layout_width="44dp"
@@ -30,6 +30,7 @@
                 android:layout_marginTop="-3dp"
                 android:layout_marginLeft="26dp"
                 />
+
             <ImageButton
                 android:layout_width="30dp"
                 android:layout_height="30dp"
@@ -40,6 +41,180 @@
                 android:layout_height="30dp"
                 android:background="@mipmap/add"
                 android:layout_marginLeft="3dp"></ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="62dp"
+                android:layout_marginLeft="-365dp">
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="23dp">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@mipmap/fabulous">
+                </ImageButton>
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="20dp"
+                        android:text="点赞"
+                        android:textColor="#ff202020"
+                        android:textSize="14sp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="-53dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="45dp">
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@mipmap/comment">
+                    </ImageButton>
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="20dp"
+                        android:text="评论"
+                        android:textColor="#ff202020"
+                        android:textSize="14sp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="-53dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="45dp">
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@mipmap/notice">
+                    </ImageButton>
+                    <TextView
+                        android:layout_width="28dp"
+                        android:layout_height="20dp"
+                        android:text="通知"
+                        android:textColor="#ff202020"
+                        android:textSize="14sp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="-53dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="335dp"
+                android:layout_height="42dp"
+                android:background="#F9F9F6"
+                android:layout_marginTop="166dp"
+                android:layout_marginLeft="-390dp">
+                <TextView
+                    android:layout_width="216dp"
+                    android:layout_height="17dp"
+                    android:text="开启通知，不错过小伙伴的每一个消息～"
+                    android:textColor="#ff202020"
+                    android:textSize="12sp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="11dp"
+                    />
+                <Button
+                    android:id="@+id/login2Btn"
+                    android:layout_width="59dp"
+                    android:layout_height="26dp"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:text="去开启"
+                    android:background="@drawable/btn_normal"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    >
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="233dp"
+                android:layout_marginLeft="-335dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@mipmap/fleet">
+                </ImageView>
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="21dp"
+                    android:text="我的车队"
+                    android:textColor="#ff202020"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="6dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="「青山尸学院」20210318…"
+                    android:textColor="#ff949496"
+                    android:textSize="14sp"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginLeft="-60dp"
+                    />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="14dp"
+                    android:text="快来聊聊吧"
+                    android:textColor="#ff171717"
+                    android:textSize="10sp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="25dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="319dp"
+                android:layout_marginLeft="-328dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@mipmap/fleet">
+                </ImageView>
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="21dp"
+                    android:text="玄雾剧社"
+                    android:textColor="#ff202020"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="6dp"
+                    />
+                <TextView
+                    android:layout_width="238dp"
+                    android:layout_height="20dp"
+                    android:text="「大家都到了吗，我还需要一会呢等等我"
+                    android:textColor="#ff949496"
+                    android:textSize="14sp"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginLeft="-60dp"
+                    />
+                <TextView
+                    android:layout_width="58dp"
+                    android:layout_height="17dp"
+                    android:text="上午 01:02"
+                    android:textColor="#ffd0d0d2"
+                    android:textSize="12sp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="-30dp"
+                    />
+            </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>
