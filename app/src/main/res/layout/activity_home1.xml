@@ -154,19 +154,19 @@
                 />
         </LinearLayout>
         <ImageButton
-            android:layout_width="160dp"
-            android:layout_height="85dp"
+            android:layout_width="173dp"
+            android:layout_height="91dp"
             android:layout_marginTop="299dp"
             android:layout_marginLeft="-370dp"
-            android:background="#FFFF00">
+            android:background="@mipmap/home1_logo1">
 
         </ImageButton>
         <ImageButton
-            android:layout_width="160dp"
-            android:layout_height="85dp"
+            android:layout_width="166dp"
+            android:layout_height="83.5dp"
             android:layout_marginTop="299dp"
-            android:layout_marginLeft="45dp"
-            android:background="#FFFF00">
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/home1_logo2">
 
         </ImageButton>
         <LinearLayout
@@ -215,168 +215,7 @@
                     android:layout_width="96dp"
                     android:layout_height="171dp"
                     android:background="#EE82EE"
-                    android:layout_marginLeft="-360dp"
-                    android:layout_marginTop="33dp">
-                    <ImageView
-                        android:layout_width="96dp"
-                        android:layout_height="125dp"
-                        android:background="#28FF28">
-                    </ImageView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:text="疯人院"
-                        android:textColor="#ff333333"
-                        android:textSize="14sp"
-                        android:layout_marginTop="130dp"
-                        android:layout_marginLeft="-90dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="16dp"
-                        android:text="￥152/人均"
-                        android:textColor="#ffed462f"
-                        android:textSize="14sp"
-                        android:layout_marginTop="150dp"
-                        android:layout_marginLeft="-43dp"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="96dp"
-                    android:layout_height="171dp"
-                    android:background="#EE82EE"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="33dp">
-                    <ImageView
-                        android:layout_width="96dp"
-                        android:layout_height="125dp"
-                        android:background="#28FF28">
-                    </ImageView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:text="疯人院"
-                        android:textColor="#ff333333"
-                        android:textSize="14sp"
-                        android:layout_marginTop="130dp"
-                        android:layout_marginLeft="-90dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="16dp"
-                        android:text="￥152/人均"
-                        android:textColor="#ffed462f"
-                        android:textSize="14sp"
-                        android:layout_marginTop="150dp"
-                        android:layout_marginLeft="-43dp"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="96dp"
-                    android:layout_height="171dp"
-                    android:background="#EE82EE"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="33dp">
-                    <ImageView
-                        android:layout_width="96dp"
-                        android:layout_height="125dp"
-                        android:background="#28FF28">
-                    </ImageView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:text="疯人院"
-                        android:textColor="#ff333333"
-                        android:textSize="14sp"
-                        android:layout_marginTop="130dp"
-                        android:layout_marginLeft="-90dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="16dp"
-                        android:text="￥152/人均"
-                        android:textColor="#ffed462f"
-                        android:textSize="14sp"
-                        android:layout_marginTop="150dp"
-                        android:layout_marginLeft="-43dp"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="96dp"
-                    android:layout_height="171dp"
-                    android:background="#EE82EE"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginTop="33dp">
-                    <ImageView
-                        android:layout_width="96dp"
-                        android:layout_height="125dp"
-                        android:background="#28FF28">
-                    </ImageView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:text="疯人院"
-                        android:textColor="#ff333333"
-                        android:textSize="14sp"
-                        android:layout_marginTop="130dp"
-                        android:layout_marginLeft="-90dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="16dp"
-                        android:text="￥152/人均"
-                        android:textColor="#ffed462f"
-                        android:textSize="14sp"
-                        android:layout_marginTop="150dp"
-                        android:layout_marginLeft="-43dp"
-                        />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="208dp"
-                android:background="#AEEEEE"
-                android:layout_marginTop="220dp"
-                android:layout_marginLeft="-410dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="28dp"
-                    android:text="密室必玩主题"
-                    android:textColor="#ff202020"
-                    android:textSize="20sp"
-                    android:layout_marginLeft="20dp"
-                    />
-
-                <EditText
-                    android:layout_width="54dp"
-                    android:layout_height="23dp"
-                    android:textColor="#202020"
-                    android:textSize="16sp"
-                    android:text="全部"
-
-                    android:lineSpacingExtra="-15dp"
-                    android:background="@drawable/btn_input"
-                    android:layout_marginLeft="201dp"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    >
-                </EditText>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/right"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="-18dp"
-                    >
-                </ImageView>
-                <LinearLayout
-                    android:layout_width="96dp"
-                    android:layout_height="171dp"
-                    android:background="#EE82EE"
-                    android:layout_marginLeft="-360dp"
+                    android:layout_marginLeft="-365dp"
                     android:layout_marginTop="33dp">
                     <ImageView
                         android:layout_width="96dp"

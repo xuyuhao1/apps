@@ -250,7 +250,7 @@
             android:text="12"
             android:textColor="#ffc1c1c9"
             android:textSize="14sp"
-            android:layout_marginTop="253dp"
+            android:layout_marginTop="255dp"
             android:layout_marginLeft="2dp"
             />
         <ImageSwitcher
@@ -266,14 +266,14 @@
             android:text="223"
             android:textColor="#ffc1c1c9"
             android:textSize="14sp"
-            android:layout_marginTop="253dp"
+            android:layout_marginTop="255dp"
             android:layout_marginLeft="2dp"
             />
 
         <ImageSwitcher
             android:layout_width="15dp"
             android:layout_height="14.25dp"
-            android:background="@mipmap/zhuan"
+            android:background="@mipmap/home3_foward"
             android:layout_marginTop="260dp"
             android:layout_marginLeft="51dp">
         </ImageSwitcher>
@@ -283,7 +283,7 @@
             android:text="223"
             android:textColor="#ffc1c1c9"
             android:textSize="14sp"
-            android:layout_marginTop="253dp"
+            android:layout_marginTop="255dp"
             android:layout_marginLeft="2dp"
             />
 

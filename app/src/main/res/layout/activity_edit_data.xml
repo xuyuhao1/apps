@@ -19,12 +19,18 @@
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:layout_marginTop="9dp">
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@mipmap/back"
+                android:layout_marginLeft="17dp"></ImageButton>
             <TextView
                 android:layout_width="72dp"
                 android:layout_height="25dp"
                 android:text="编辑资料"
                 android:textColor="#ff323232"
-                android:layout_marginLeft="152dp"
+                android:layout_marginLeft="135dp"
                 android:textSize="18sp"
                 />
         </LinearLayout>
@@ -54,8 +60,16 @@
                 android:background="@drawable/btn_img"
                 >
             </ImageView>
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="9dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/toName"
             android:layout_width="match_parent"
             android:layout_height="21dp"
             android:layout_marginTop="107dp">
@@ -75,6 +89,13 @@
                 android:textSize="15sp"
                 android:layout_marginLeft="230dp"
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
     </RelativeLayout>
     </RelativeLayout>
@@ -103,6 +124,13 @@
                 android:textSize="15sp"
                 android:layout_marginLeft="272dp"
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -123,9 +151,18 @@
                 android:textColor="#ff656565"
                 android:textSize="15sp"
                 android:layout_marginLeft="230dp"
+
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/toJj"
             android:layout_width="match_parent"
             android:layout_height="21dp"
             android:layout_marginTop="154dp">
@@ -145,8 +182,16 @@
                 android:textSize="15sp"
                 android:layout_marginLeft="160dp"
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
         <LinearLayout
+        android:id="@+id/toLabel"
         android:layout_width="match_parent"
         android:layout_height="21dp"
         android:layout_marginTop="221dp">
@@ -158,6 +203,13 @@
                 android:textSize="15sp"
                 android:layout_marginLeft="20dp"
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="270dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
     </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -179,6 +231,13 @@
                 android:textSize="15sp"
                 android:layout_marginLeft="196dp"
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="9dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -200,6 +259,13 @@
                 android:textSize="15sp"
                 android:layout_marginLeft="164dp"
                 />
+            <ImageSwitcher
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="9dp"
+                android:background="@mipmap/in">
+            </ImageSwitcher>
         </LinearLayout>
     </RelativeLayout>
 

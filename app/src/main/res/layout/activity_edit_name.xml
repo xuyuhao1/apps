@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@mipmap/back"
+            android:layout_marginLeft="17dp"></ImageButton>
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="127dp"
+            android:text="修改昵称"
+            android:textColor="#ff323232"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/login2Btn"
+            android:layout_width="50dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="81dp"
+            android:background="@drawable/btn_normal"
+            android:text="完成"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入昵称"
+            android:textSize="12sp"
+            android:layout_marginLeft="12dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="12dp"
+            android:background="@drawable/btn_rd10">
+        </EditText>
+    </LinearLayout>
+</RelativeLayout>

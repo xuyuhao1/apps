@@ -45,14 +45,35 @@
            
         </activity>
         <activity android:name=".Home5Activity">
-
-        </activity>
-        <activity android:name=".EditDataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".EditDataActivity">
+
+        </activity>
+        <activity android:name=".EditNameActivity">
+
+        </activity>
+        <activity android:name=".EditJjActivity">
+
+        </activity>
+        <activity android:name=".LabelSelectionActivity">
+
+        </activity>
+        <activity android:name=".SettingjActivity">
+
+        </activity>
+        <activity android:name=".PrivacySettingActivity">
+
+        </activity>
+        <activity android:name=".MessageSettingActivity">
+
+        </activity>
+        <activity android:name=".BlacklistActivity">
+
         </activity>
     </application>
 
